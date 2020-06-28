@@ -1,0 +1,157 @@
+#features {
+  padding: 3% 3%;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+
+
+.carousel-slide {
+  position: relative;
+  right: 0;
+}
+
+.left-section {
+  margin: 0;
+}
+
+.left-menu {
+  padding-top: 200px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.rightbutton {
+  padding-top: 100px;
+  font-size: 2rem;
+}
+
+.btn-block {
+  background-color: #543864;
+}
+
+h3 {
+  color: #ff6363;
+}
+
+h2 {
+  color: white;
+}
+
+.para {
+  size: 10em;
+}
+
+.Heading {
+
+  color: white;
+  font-size: 4em;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-family: 'Anton', sans-serif;
+
+}
+
+.logo{
+  font-size: 5rem;
+}
+
+.back-ground {
+  background-image: url("card4.jpg");
+  background-size: cover;
+
+}
+
+.graphicbackground {
+  height: 600px;
+  width: 100%;
+}
+.activeroom{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+.top1 {
+  width: 100%;
+}
+
+.TopPlayerimage {
+  width: 20%;
+  height: 200px;
+}
+.top-player{
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+}
+.playernames{
+  font-size: 2rem;
+  text-align: center;
+}
+.container-fluid {
+  padding: 0 15%;
+  height: 500px;
+}
+.Steps{
+  font-size: 4rem;
+}
+.Steps:hover {
+  color: #543864;
+}
+
+.spade{
+  width: 1rem;
+}
+
+
+.fallingcard {
+  position: absolute;
+  margin: 0;
+  right: 15%;
+  width: 600px;
+  height: 800px
+}
+
+.carousaltest {
+  background-color: #543864;
+  padding: 10%;
+  text-align: center;
+}
+
+.creategame {
+  width: 20rem;
+  top: 45%;
+  right: 30%;
+  background: #ffbd69;
+  position: absolute;
+}
+
+.joingame {
+  width: 20rem;
+  top: 65%;
+  right: 30%;
+  background: #ffbd69;
+  position: absolute;
+}
+
+.btn {
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  padding: 1% 4%;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #ffbd69;
+  background-image: -webkit-linear-gradient(top, #ffbd69, #ff6363);
+  background-image: -moz-linear-gradient(top, #ffbd69, #ff6363);
+  background-image: -ms-linear-gradient(top, #ffbd69, #ff6363);
+  background-image: -o-linear-gradient(top, #ffbd69, #ff6363);
+  background-image: linear-gradient(to bottom, #ffbd69, #ff6363);
+  text-decoration: none;
+}

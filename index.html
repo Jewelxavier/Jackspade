@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>PlayJackSpade</title>
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/Styles.css">
+  <!-- Fontawesome-spadelogo -->
+  <script src="https://kit.fontawesome.com/43137e872f.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="https://img.icons8.com/ios/50/000000/jack-of-spades.png">
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+
+</div>
+</nav>
+
+<body>
+
+  <section id="title">
+    <!-- Nav Bar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #654062;">
+
+      <a class="navbar-brand" href="">PlayJackSpade <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+<path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">How to play</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Game Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-warning btn-lg " style="color:black;background-color : #ffbd69; " href="#cta">Sign in</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+
+  </section>
+  <!-- Title -->
+  <section class="left-section">
+    <div class="row">
+      <div class="col-lg-9">
+        <img class="graphicbackground" src="css/card9.jpg" alt="Card-Image">
+
+        <h1 class="Heading"> Cardgame <span class="logo"> 56</span> </h1>
+        <button type="button" class="btn btn-lg creategame"><i class="far fa-play-circle"></i>Create Game-room</button>
+        <button type="button" class="btn btn-lg joingame"><i class="far fa-play-circle"></i> Join Game-room</button>
+      </div>
+      <!-- <img class="fallingcard" src="images/13464.png" alt="cardimage"> -->
+
+      <div class="col-lg-3 rightbutton">
+
+          <h1 class="activeroom">Active Game-rooms</h1>
+          <button type="button" class="btn btn-secondary btn-lg btn-block"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+          <button type="button" class="btn btn-primary btn-lg btn-block"> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+          <button type="button" class="btn btn-secondary btn-lg btn-block"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+          <button type="button" class="btn btn-primary btn-lg btn-block"> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+          <button type="button" class="btn btn-secondary btn-lg btn-block"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+          <button type="button" class="btn btn-secondary btn-lg btn-block"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+          <button type="button" class="btn btn-primary btn-lg btn-block"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+          <button type="button" class="btn btn-secondary btn-lg btn-block"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+          <button type="button" class="btn btn-secondary btn-lg btn-block"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-spade-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.602 14.153C6.272 13.136 7.348 11.28 8 9c.652 2.28 1.727 4.136 2.398 5.153.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847z"/>
+  <path d="M4.5 12.5A3.5 3.5 0 0 0 8 9a3.5 3.5 0 1 0 7 0c0-3-4-4-7-9-3 5-7 6-7 9a3.5 3.5 0 0 0 3.5 3.5z"/>
+</svg> Gameroom</button>
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </section>
+
+
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <h3 class="Steps"> 1</h3>
+        <p>Sign up or Sign in</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <h3 class="Steps"> 2</h3>
+        <p>Create a room or Join a room</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <h3 class="Steps"> 3</h3>
+        <p>Take chair and start playing</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="row">
+    <div class="col-lg-2" style="background-color:#543864; border: 1px solid">
+      TopPlayers
+    </div>
+    <div class="col-lg-2" style="background-color:#543864; border: 1px solid">
+      TopPlayers
+    </div>
+    <div class="col-lg-2" style="background-color:#543864; border: 1px solid">
+      TopPlayers
+    </div>
+    <div class="col-lg-2" style="background-color:#543864; border: 1px solid">
+      TopPlayers
+    </div>
+    <div class="col-lg-2" style="background-color:#543864; border: 1px solid">
+      TopPlayers
+    </div>
+    <div class="col-lg-2" style="background-color:#543864; border: 1px solid">
+      TopPlayers
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+
+  <section id="">
+    <div class="back-ground container-fluid">
+
+      <div class="topplayers">
+        <h1 class="top-player">TOP PLAYERS</h1>
+        <ul style="list-style-type:none;" class="playernames">
+
+          <li>
+            <a href="#">JosephK</a>
+          </li>
+          <li>
+            <a href="#">Spiderman</a>
+          </li>
+          <li>
+            <a href="#">Playername</a>
+          </li>
+          <li>
+            <a href="#">Playername</a>
+          </li>
+          <li>
+            <a href="#">Playername</a>
+          </li>
+          <li>
+            <a href="#">Playername</a>
+          </li>
+          <li>
+            <a href="#">Playername</a>
+          </li>
+          <li>
+            <a href="#">Playername</a>
+          </li>
+          <li>
+            <a href="#">Playername</a>
+          </li>
+        </ul>
+    </div>
+    </div>
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- tips -->
+
+
+  <section class="carousaltest">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h3>TEST 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing enim eu turpis egestas pretium aenean pharetra. Nam libero justo laoreet sit amet. Lectus urna duis
+            convallis convallis tellus id interdum velit laoreet.</p>
+        </div>
+        <div class="carousel-item">
+          <h3>TEST 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing enim eu turpis egestas pretium aenean pharetra. Nam libero justo laoreet sit amet. Lectus urna duis
+            convallis convallis tellus id interdum velit laoreet.</p>
+        </div>
+        <div class="carousel-item">
+          <h3>TEST 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing enim eu turpis egestas pretium aenean pharetra. Nam libero justo laoreet sit amet. Lectus urna duis
+            convallis convallis tellus id interdum velit laoreet.</p>
+        </div>
+  </section>
+
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2020 PlayJackSpade</p>
+
+  </footer>
+
+
+</body>
+
+</html>
