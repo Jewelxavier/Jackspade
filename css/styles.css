@@ -1,5 +1,5 @@
 #features {
-  padding: 3% 3%;
+  padding: 2% 3%;
   text-align: center;
   font-family: 'Anton', sans-serif;
 }
@@ -61,6 +61,7 @@ h2 {
 .back-ground {
   background-image: url("card4.jpg");
   background-size: cover;
+  height: 200px;
 
 }
 
@@ -82,16 +83,18 @@ h2 {
 }
 .top-player{
   font-size: 3rem;
-  color: #fff;
-  text-align: center;
+  color: #ffbd69;
+}
+.playername{
+  padding: 2%;
 }
 .playernames{
-  font-size: 2rem;
-  text-align: center;
+  font-size: 3rem;
+  color: white;
 }
 .container-fluid {
   padding: 0 15%;
-  height: 500px;
+  height: 400px;
 }
 .Steps{
   font-size: 4rem;
@@ -103,8 +106,23 @@ h2 {
 .spade{
   width: 1rem;
 }
+.col-lg-12{
+  font-size: 3rem;
+  text-align: center;
+  background-color: #ffbd69;
 
+}
+.joinqueue{
+  color: white;
+  font-weight: bold;
 
+}
+.joinqueue:hover {
+  color: #543864;
+  text-decoration: none;
+  font-size: 4rem;
+  font-weight: bold;
+}
 .fallingcard {
   position: absolute;
   margin: 0;
@@ -123,7 +141,7 @@ h2 {
   width: 20rem;
   top: 45%;
   right: 30%;
-  background: #ffbd69;
+  background: #ff6363;
   position: absolute;
 }
 
@@ -131,7 +149,7 @@ h2 {
   width: 20rem;
   top: 65%;
   right: 30%;
-  background: #ffbd69;
+  background: #ff6363;
   position: absolute;
 }
 
@@ -161,4 +179,3 @@ h2 {
   left: 10%;
   }
 }
-
