@@ -155,3 +155,10 @@ h2 {
   background-image: linear-gradient(to bottom, #ffbd69, #ff6363);
   text-decoration: none;
 }
+
+@media (max-width: 1028px) {
+  .Heading {
+  left: 10%;
+  }
+}
+
